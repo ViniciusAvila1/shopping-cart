@@ -11,6 +11,10 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -32,25 +36,37 @@
             <tbody>
               <tr>
                 <td>
-                  <img src="images/gaming-chair.jpg" height="100" width="100" />
-                  <div>Gaming Chair</div>
-                  <div>Peripherals</div>
+                  <div class="product">
+                    <img
+                      src="images/gaming-chair.jpg"
+                      height="100"
+                      width="100"
+                    />
+                    <div class="info">
+                      <div class="name">Gaming Chair</div>
+                      <div class="category">Peripherals</div>
+                    </div>
+                  </div>
                 </td>
                 <td>US$650</td>
                 <td>
-                  <button>
-                    <i class="bx bx-minus"></i>
-                  </button>
-                  <span>2</span>
-                  <button>
-                    <i class="bx bx-plus"></i>
-                  </button>
+                  <div class="quantity">
+                    <button>
+                      <i class="bx bx-minus"></i>
+                    </button>
+                    <span>2</span>
+                    <button>
+                      <i class="bx bx-plus"></i>
+                    </button>
+                  </div>
                 </td>
                 <td>US$1300</td>
                 <td>
-                  <button>
-                    <i class="bx bx-x"></i>
-                  </button>
+                  <div class="remove">
+                    <button>
+                      <i class="bx bx-x"></i>
+                    </button>
+                  </div>
                 </td>
               </tr>
             </tbody>
