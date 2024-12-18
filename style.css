@@ -118,3 +118,44 @@ table thead tr th {
 .remove:hover {
   background: #ddd;
 }
+
+.box {
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  background: #eee;
+}
+
+.box header {
+  padding: 15px 20px;
+  font-size: 18px;
+  border-bottom: 1px solid #ccc;
+}
+
+.box .details {
+  padding: 20px;
+  font-size: 16px;
+}
+
+.box .details div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.box .details button {
+  color: #ff3a2f;
+  background: transparent;
+  border: 0;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+
+.box footer {
+  padding: 15px 20px;
+  background: #ddd;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+}
