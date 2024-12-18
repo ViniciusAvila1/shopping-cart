@@ -24,6 +24,11 @@ body > header {
 
 .content {
   display: flex;
+  padding: 1em;
+}
+
+.content > section {
+  flex: 1;
 }
 
 table {
@@ -45,6 +50,7 @@ table thead tr th {
 .product {
   display: flex;
   align-items: center;
+  margin-top: 0.5em;
 }
 
 .product img {
