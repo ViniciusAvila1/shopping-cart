@@ -73,3 +73,9 @@ Inclui toda a estilização do layout. Exemplos:
 - Botões incrementais/decrementais estilizados.
 - Design minimalista para exibição de produtos.
 - Efeitos de hover para ações como remoção e checkout.
+
+## 🌐 Visualize o projeto
+
+Você pode visualizar o projeto no GitHub Pages clicando no link abaixo:
+
+[Visite o carrinho de compras](https://viniciusavila1.github.io/shopping-cart/)
